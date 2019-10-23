@@ -309,6 +309,7 @@
     })
   </script>
 
+<!-- open sidebar -->
 <script>
     $(function(){
       $(".close--box").on('click', function(){
@@ -316,6 +317,14 @@
        
       })
     })
+  </script>
+
+
+<!-- remove icon -->
+  <script>
+  $('.btn--delete').click(function(){
+    $(this).closest(".table-list__item").remove();
+  });
   </script>
 
 
