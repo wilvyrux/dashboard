@@ -1,16 +1,40 @@
 .dashboard {
-    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    position: absolute;
     &__wrapper {
         width: 95%;
         max-width: 95%;
     }
-    .sidebar-content {
-        background: #f00;
-        width: 100px;
+}
+
+.sidebar-content {
+    background: $color-white;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 20px;
+    -webkit-box-shadow: -5px 1px 5px 1px rgba(0, 0, 0, .2);
+    box-shadow: -5px 1px 5px 1px rgba(0, 0, 0, .2);
+    @include transform_translate(100%, 0);
+    @include transition(.5s);
+    z-index: 99;
+    padding-top: 55px;
+    a.close--box {
+        background: $color-red;
+        padding: 5px 10px;
+        display: inline-block;
+        color: $color-white;
         position: absolute;
+        left: 0;
         top: 0;
-        right: 0;
-        height: 100%;
+        font-size: 1.5em;
+    }
+    &--toogle {
+        @include transform_translate(0%, 0);
     }
 }
 
