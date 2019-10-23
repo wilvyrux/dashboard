@@ -1,0 +1,23 @@
+.btn {
+    background: $color-blue;
+    padding: 5px 10px;
+    margin: 5px;
+    @include border-radius(3px);
+    color: $color-white;
+    @include transition(.4s);
+    &:hover {
+        opacity: .5;
+        i {
+            color: $color-white;
+        }
+    }
+    &--duplicate {
+        background: $color-blue2;
+    }
+    &--edit {
+        background: $color-orange;
+    }
+    &--delete {
+        background: $color-red;
+    }
+}

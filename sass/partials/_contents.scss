@@ -1,0 +1,173 @@
+.dashboard {
+    position: relative;
+    &__wrapper {
+        width: 95%;
+        max-width: 95%;
+    }
+    .sidebar-content {
+        background: #f00;
+        width: 100px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+    }
+}
+
+.color-thumbnail {
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+.counter-bar {
+    margin-bottom: 15px;
+    &__top {
+        @include flex;
+        @include flex-align-items(center);
+        @include flex-justify-content(space-between);
+        padding: 15px;
+        &--left {
+            h3 {
+                display: block;
+                margin: 0;
+                margin-bottom: 10px;
+            }
+            p {
+                margin: 0;
+            }
+        }
+        &--right {
+            i {
+                font-size: 4em;
+                opacity: .2;
+            }
+        }
+    }
+    &__bottom {
+        display: block;
+        padding: 5px;
+        text-transform: capitalize;
+        a {
+            color: $color-white;
+            font-size: .8em;
+            font-weight: bold;
+            display: block;
+            text-decoration: none;
+            @include transition(.4s);
+            &:hover {
+                opacity: .5;
+            }
+        }
+    }
+}
+
+.table-list {
+    margin-top: 50px;
+    table {
+        width: 100%;
+        thead {
+            border-bottom: 1px solid $color-lightgray;
+        }
+        td,
+        th {
+            padding: 5px 10px;
+        }
+        tr {
+            td {
+                font-size: .9em;
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
+
+.status {
+    &:before {
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        content: '';
+        border-radius: 100%;
+        margin-right: 10px;
+    }
+    &__deploy {
+        color: $color-blue;
+        &:before {
+            background: $color-blue;
+        }
+    }
+    &__ready {
+        color: $color-green;
+    }
+    &__pending {
+        color: $color-orange;
+    }
+}
+
+.person {
+    color: $color-blue;
+}
+
+.check-status {
+    display: inline-block;
+    padding: 4px 15px;
+    color: $color-white;
+    @include transition(.4s);
+    @include border-radius(5px);
+    &__checkin {
+        background: $color-violet;
+    }
+    &__checkout {
+        background: $color-red;
+    }
+    &:hover {
+        opacity: .5;
+    }
+}
+
+.lightgray-background {
+    background: $color-lightgray;
+}
+
+.cyan-background {
+    background: $color-cyan;
+    .counter-bar__bottom {
+        background: $color-cyan2;
+    }
+}
+
+.red-background {
+    background: $color-red;
+    .counter-bar__bottom {
+        background: $color-red2;
+    }
+}
+
+.orange-background {
+    background: $color-orange;
+    .counter-bar__bottom {
+        background: $color-orange2;
+    }
+}
+
+.violet-background {
+    background: $color-violet;
+    .counter-bar__bottom {
+        background: $color-violet2;
+    }
+}
+
+.white-text {
+    h1,
+    h3,
+    h2,
+    h4,
+    p {
+        color: $color-white;
+    }
+}
