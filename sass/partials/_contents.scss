@@ -127,9 +127,15 @@
     }
     &__ready {
         color: $color-green;
+        &:before {
+            background: $color-green;
+        }
     }
     &__pending {
         color: $color-orange;
+        &:before {
+            background: $color-orange;
+        }
     }
 }
 

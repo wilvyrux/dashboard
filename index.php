@@ -168,7 +168,7 @@
                 <td>
                   <div class="btn-group">
                     <a href="#" class="btn btn--duplicate dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"><i class="fa fa-files-o" aria-hidden="true"></i></a>
-                    <a href="#tab1default" class="btn btn--edit" ><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit" ><i class="fa fa-pencil" aria-hidden="true"></i></a>
                     <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
                   </div>
                 </td>
@@ -181,19 +181,42 @@
                 <td> 12121244 </td>
                 <td>Macbook Pro</td>
                 <td>Laptops</td>
-                <td> <div class="status status__deploy">deployed</div> </td>
+                <td> <div class="status status__ready">deployed</div> </td>
                 <td><div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
  joany jonh</div></td>
                 <td><div class="check-status check-status__checkin"> Checkin</div></td>
                 <td>
                   <div class="btn-group">
-                    <a href="#language" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
-                    <a href="#tab3default" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
                     <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
 
                   </div>
                 </td>
               </tr> 
+
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_">  </td>
+                <td> <img src="images/red.jpg"> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td> <div class="status status__pending">deployed</div> </td>
+                <td><div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+ joany jonh</div></td>
+                <td><div class="check-status check-status__checkin"> Checkin</div></td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr> 
+
             </tbody>
           </table>
 
@@ -210,15 +233,7 @@
     <div class="sidebar-content">
         <a href="#" class="close--box"><i class="fa fa-times" aria-hidden="true"></i></a>
          <div class="sidebar-content__item">
-         ``````<div class="panel-body">
-                    <div class="tab-content">
-                        <div class="tab-pane fade in active" id="tab1default">Default 1</div>
-                        <div class="tab-pane fade" id="tab2default">Default 2</div>
-                        <div class="tab-pane fade" id="tab3default">Default 3</div>
-                        <div class="tab-pane fade" id="tab4default">Default 4</div>
-                        <div class="tab-pane fade" id="tab5default">Default 5</div>
-                    </div>
-                </div>
+         ````test
          </div>
     </div>
 
