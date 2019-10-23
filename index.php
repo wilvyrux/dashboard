@@ -181,7 +181,7 @@
                 <td> 12121244 </td>
                 <td>Macbook Pro</td>
                 <td>Laptops</td>
-                <td> <div class="status status__ready">deployed</div> </td>
+                <td> <div class="status status__ready">ready</div> </td>
                 <td><div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
  joany jonh</div></td>
                 <td><div class="check-status check-status__checkin"> Checkin</div></td>
@@ -203,7 +203,7 @@
                 <td> 12121244 </td>
                 <td>Macbook Pro</td>
                 <td>Laptops</td>
-                <td> <div class="status status__pending">deployed</div> </td>
+                <td> <div class="status status__pending">pending</div> </td>
                 <td><div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
  joany jonh</div></td>
                 <td><div class="check-status check-status__checkin"> Checkin</div></td>
