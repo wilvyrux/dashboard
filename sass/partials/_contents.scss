@@ -36,6 +36,15 @@
     &--toogle {
         @include transform_translate(0%, 0);
     }
+    &__item {
+        table {
+            width: 100%;
+            th,
+            td {
+                padding: 10px;
+            }
+        }
+    }
 }
 
 .color-thumbnail {

@@ -233,7 +233,37 @@
     <div class="sidebar-content">
         <a href="#" class="close--box"><i class="fa fa-times" aria-hidden="true"></i></a>
          <div class="sidebar-content__item">
-         ````test
+            <table>
+              <thead>
+                  <tr>
+                    <th>Asset Tag</th>
+                    <th>Asset Name</th>
+                    <th>Description</th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>IT 1212</td>
+                    <td>Morlan Test</td>
+                    <td>RS - 999</td>
+                </tr>
+                <tr>
+                    <td>IT 1212</td>
+                    <td>Morlan Test</td>
+                    <td>RS - 999</td>
+                </tr>
+                <tr>
+                    <td>IT 1212</td>
+                    <td>Morlan Test</td>
+                    <td>RS - 999</td>
+                </tr>
+                <tr>
+                    <td>IT 1212</td>
+                    <td>Morlan Test</td>
+                    <td>RS - 999</td>
+                </tr>
+              </tbody>
+            </table>
          </div>
     </div>
 
