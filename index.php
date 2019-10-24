@@ -271,6 +271,9 @@
          <div class="sidebar-content__edit">
             <ul>
               <li>
+                <h4>IT 1212</h4>
+              </li>
+              <li>
                   <div class="form-group">
                     <label>Description</label>
                     <input type="text" value="" placeholder="enter value here">
