@@ -156,7 +156,7 @@
             <tbody>
               <tr class="table-list__item">
                 <td> <input type="checkbox" class="check_">  </td>
-                <td> <img src="images/red.jpg"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
                 <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
                 <td> 12121244 </td>
                 <td>Macbook Pro</td>
@@ -176,7 +176,7 @@
 
               <tr class="table-list__item">
                 <td> <input type="checkbox" class="check_">  </td>
-                <td> <img src="images/red.jpg"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
                 <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
                 <td> 12121244 </td>
                 <td>Macbook Pro</td>
@@ -198,7 +198,7 @@
 
               <tr class="table-list__item">
                 <td> <input type="checkbox" class="check_">  </td>
-                <td> <img src="images/red.jpg"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
                 <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
                 <td> 12121244 </td>
                 <td>Macbook Pro</td>
@@ -232,6 +232,8 @@
     
     <div class="sidebar-content">
         <a href="#" class="close--box"><i class="fa fa-times" aria-hidden="true"></i></a>
+       
+       
          <div class="sidebar-content__item">
             <table>
               <thead>
@@ -243,28 +245,77 @@
               </thead>
               <tbody>
                 <tr>
-                    <td>IT 1212</td>
+                    <td><a href="#" class="asset--edit">IT 1212</a></td>
                     <td>Morlan Test</td>
                     <td>RS - 999</td>
                 </tr>
                 <tr>
-                    <td>IT 1212</td>
+                    <td><a href="#" class="asset--edit">IT 1212</a></td>
                     <td>Morlan Test</td>
                     <td>RS - 999</td>
                 </tr>
                 <tr>
-                    <td>IT 1212</td>
+                    <td><a href="#" class="asset--edit">IT 1212</a></td>
                     <td>Morlan Test</td>
                     <td>RS - 999</td>
                 </tr>
                 <tr>
-                    <td>IT 1212</td>
+                    <td><a href="#" class="asset--edit">IT 1212</a></td>
                     <td>Morlan Test</td>
                     <td>RS - 999</td>
                 </tr>
               </tbody>
             </table>
          </div>
+
+         <div class="sidebar-content__edit">
+            <ul>
+              <li>
+                  <div class="form-group">
+                    <label>Description</label>
+                    <input type="text" value="" placeholder="enter value here">
+                  </div>
+              </li>
+              <li>
+                  <div class="form-group">
+                    <label>Phone</label>
+                    <input type="text" value="" placeholder="enter value here">
+                  </div>
+              </li>
+              <li>
+                  <div class="form-group">
+                    <label>Asset Type</label>
+                    <select>
+                      <option value="">Select 1</option>
+                      <option value="">Select 2</option>
+                      <option value="">Select 1</option>
+                    </select>
+                  </div>
+              </li>
+              <li>
+                  <div class="form-group">
+                    <label>Assign to</label>
+                    <select>
+                      <option value="">Select 1</option>
+                      <option value="">Select 2</option>
+                      <option value="">Select 1</option>
+                    </select>
+                  </div>
+              </li>
+              <li>
+                  <div class="form-group">
+                    <label>Department</label>
+                    <input type="text" value="" placeholder="enter value here">
+                  </div>
+              </li>
+              <li>
+                <div class="btn-group">
+                   <button class="btn btn--save">save</button>
+                </div>
+              </li>
+            </ul>
+         </div>
+
     </div>
 
   </section>
@@ -303,11 +354,33 @@
   <script>
     $(function(){
       $(".btn--edit").on('click', function(){
-       $('.sidebar-content').addClass('sidebar-content--toogle');
-       
+        $('.sidebar-content').addClass('sidebar-content--toogle');
+        $('.sidebar-content--toogle').addClass('sidebar-content--toogle-edit');
+        $('.sidebar-content').removeClass('sidebar-content--toogle-view')
       })
     })
   </script>
+
+
+<script>
+    $(function(){
+      $(".asset--edit").on('click', function(){
+       $('.sidebar-content').addClass('sidebar-content--toogle');
+       $('.sidebar-content--toogle').addClass('sidebar-content--toogle-edit');
+       $('.sidebar-content').removeClass('sidebar-content--toogle-view')
+      })
+    })
+  </script>
+
+  <script>
+    $(function(){
+      $(".asset--view").on('click', function(){
+       $('.sidebar-content').addClass('sidebar-content--toogle');
+       $('.sidebar-content--toogle').addClass('sidebar-content--toogle-view');
+      }) 
+    })
+  </script>
+
 
 <!-- open sidebar -->
 <script>
