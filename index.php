@@ -141,7 +141,7 @@
           <table>
             <thead>
               <tr>
-                <th><input type="checkbox" id="checkall"></th> 
+                <th><input type="checkbox" id="checkall"></th>
                 <!-- <th>Device image</th> -->
                 <th>Asset Tag</th>
                 <th>Serial </th>
@@ -155,36 +155,49 @@
             </thead>
             <tbody>
               <tr class="table-list__item">
-                <td> <input type="checkbox" class="check_">  </td>
+                <td> <input type="checkbox" class="check_"> </td>
                 <td> <a href="#" class="asset--view"> 112232344</a> </td>
                 <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
                 <td> 12121244 </td>
                 <td>Macbook Pro</td>
                 <td>Laptops</td>
-                <td> <div class="status status__deploy">deployed</div> </td>
-                <td><div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
- joany jonh</div></td>
-                <td><div class="check-status check-status__checkout"> Checkin</div></td>
+                <td>
+                  <div class="status status__deploy">deployed</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkout"> Checkin</div>
+                </td>
                 <td>
                   <div class="btn-group">
-                    <a href="#" class="btn btn--duplicate dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"><i class="fa fa-files-o" aria-hidden="true"></i></a>
-                    <a href="#" class="btn btn--edit" ><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--duplicate dropdown-toggle" id="dropdownMenuButton"
+                      data-toggle="dropdown"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
                     <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
                   </div>
                 </td>
               </tr>
 
               <tr class="table-list__item">
-                <td> <input type="checkbox" class="check_">  </td>
+                <td> <input type="checkbox" class="check_"> </td>
                 <td> <a href="#" class="asset--view"> 112232344</a> </td>
                 <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
                 <td> 12121244 </td>
                 <td>Macbook Pro</td>
                 <td>Laptops</td>
-                <td> <div class="status status__ready">ready</div> </td>
-                <td><div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
- joany jonh</div></td>
-                <td><div class="check-status check-status__checkin"> Checkin</div></td>
+                <td>
+                  <div class="status status__ready">ready</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
                 <td>
                   <div class="btn-group">
                     <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
@@ -193,20 +206,26 @@
 
                   </div>
                 </td>
-              </tr> 
+              </tr>
 
 
               <tr class="table-list__item">
-                <td> <input type="checkbox" class="check_">  </td>
+                <td> <input type="checkbox" class="check_"> </td>
                 <td> <a href="#" class="asset--view"> 112232344</a> </td>
                 <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
                 <td> 12121244 </td>
                 <td>Macbook Pro</td>
                 <td>Laptops</td>
-                <td> <div class="status status__pending">pending</div> </td>
-                <td><div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
- joany jonh</div></td>
-                <td><div class="check-status check-status__checkin"> Checkin</div></td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
                 <td>
                   <div class="btn-group">
                     <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
@@ -215,7 +234,7 @@
 
                   </div>
                 </td>
-              </tr> 
+              </tr>
 
             </tbody>
           </table>
@@ -229,124 +248,128 @@
     </div>
 
 
-    
+
     <div class="sidebar-content">
-        <a href="#" class="close--box"><i class="fa fa-times" aria-hidden="true"></i></a>
-       
-       
-         <div class="sidebar-content__item sidebar-content__view">
+      <a href="#" class="close--box"><i class="fa fa-times" aria-hidden="true"></i></a>
 
-          <ul>
+
+
+      <!-- view container for view section -->
+      <div class="sidebar-content__item sidebar-content__view">
+
+        <ul>
           <li>
-                <h4>IT 1212</h4>
-              </li>
-              <li>
-                  <div class="form-group">
-                    <label>Description</label>
-                    <input type="text" value="" placeholder="enter value here" disabled>
-                  </div>
-              </li>
-              <li>
-                  <div class="form-group">
-                    <label>Phone</label>
-                    <input type="text" value="" placeholder="enter value here" disabled>
-                  </div>
-              </li>
-              <li>
-                  <div class="form-group">
-                    <label>Asset Type</label>
-                    <select disabled>
-                      <option value="">Select 1</option>
-                      <option value="">Select 2</option>
-                      <option value="">Select 1</option>
-                    </select>
-                  </div>
-              </li>
-              <li>
-                  <div class="form-group">
-                    <label>Assign to</label>
-                    <select disabled>
-                      <option value="">Select 1</option>
-                      <option value="">Select 2</option>
-                      <option value="">Select 1</option>
-                    </select>
-                  </div>
-              </li>
-              <li>
-                  <div class="form-group">
-                    <label>Department</label>
-                    <input type="text" value="" placeholder="enter value here" disabled>
-                  </div>
-              </li>
-              <li>
-                <div class="btn-group">
-                   <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
- Edit</button>
-                   <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
-Cancel</button>
-                </div>
-              </li>
-            </ul>
+            <h4>IT 1212</h4>
+          </li>
+          <li>
+            <div class="form-group">
+              <label>Description</label>
+              <input type="text" value="" placeholder="enter value here" disabled>
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="text" value="" placeholder="enter value here" disabled>
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <label>Asset Type</label>
+              <select disabled>
+                <option value="">Select 1</option>
+                <option value="">Select 2</option>
+                <option value="">Select 1</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <label>Assign to</label>
+              <select disabled>
+                <option value="">Select 1</option>
+                <option value="">Select 2</option>
+                <option value="">Select 1</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <label>Department</label>
+              <input type="text" value="" placeholder="enter value here" disabled>
+            </div>
+          </li>
+          <li>
+            <div class="btn-group">
+              <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
+                Edit</button>
+              <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
+                Cancel</button>
+            </div>
+          </li>
+        </ul>
 
 
-         </div>
+      </div>
 
-         <div class="sidebar-content__edit">
-            <ul>
-              
 
-            <li>
-                <h4>IT 1212</h4>
-              </li>
-              <li>
-                  <div class="form-group">
-                    <label>Description</label>
-                    <input type="text" value="" placeholder="enter value here">
-                  </div>
-              </li>
-              <li>
-                  <div class="form-group">
-                    <label>Phone</label>
-                    <input type="text" value="" placeholder="enter value here">
-                  </div>
-              </li>
-              <li>
-                  <div class="form-group">
-                    <label>Asset Type</label>
-                    <select>
-                      <option value="">Select 1</option>
-                      <option value="">Select 2</option>
-                      <option value="">Select 1</option>
-                    </select>
-                  </div>
-              </li>
-              <li>
-                  <div class="form-group">
-                    <label>Assign to</label>
-                    <select>
-                      <option value="">Select 1</option>
-                      <option value="">Select 2</option>
-                      <option value="">Select 1</option>
-                    </select>
-                  </div>
-              </li>
-              <li>
-                  <div class="form-group">
-                    <label>Department</label>
-                    <input type="text" value="" placeholder="enter value here">
-                  </div>
-              </li>
-              <li>
-                <div class="btn-group">
-                <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
- save</button>
-                   <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
-Cancel</button>
-                </div
-                </div>
-              </li>
-            </ul>
-         </div>
+      <!-- view container for edit section -->
+      <div class="sidebar-content__edit">
+
+        <ul>
+          <li>
+            <h4>IT 1212</h4>
+          </li>
+          <li>
+            <div class="form-group">
+              <label>Description</label>
+              <input type="text" value="" placeholder="enter value here">
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="text" value="" placeholder="enter value here">
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <label>Asset Type</label>
+              <select>
+                <option value="">Select 1</option>
+                <option value="">Select 2</option>
+                <option value="">Select 1</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <label>Assign to</label>
+              <select>
+                <option value="">Select 1</option>
+                <option value="">Select 2</option>
+                <option value="">Select 1</option>
+              </select>
+            </div>
+          </li>
+          <li>
+            <div class="form-group">
+              <label>Department</label>
+              <input type="text" value="" placeholder="enter value here">
+            </div>
+          </li>
+          <li>
+            <div class="btn-group">
+              <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
+                save</button>
+              <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
+                Cancel</button>
+            </div>
+      </div>
+      </li>
+      </ul>
+
+    </div>
 
     </div>
 
@@ -367,25 +390,27 @@ Cancel</button>
 
   <!-- enable all checkbox -->
   <script>
-    $("#checkall").click(function(){
-        $("input:checkbox").prop( 'checked',$(this).is(":checked") );
+    $("#checkall").click(function () {
+      $("input:checkbox").prop('checked', $(this).is(":checked"));
     })
   </script>
 
 
-<!-- add and delete -->
+  <!-- add and delete -->
   <script>
-    $(function(){
-      $(".btn--duplicate").on('click', function(){
+    $(function () {
+      $(".btn--duplicate").on('click', function () {
         var ele = $(this).closest('.table-list__item').clone(true);
-        $(this).closest('.table-list__item').after(ele);40
+        $(this).closest('.table-list__item').after(ele);
+        40
       })
     })
   </script>
 
+  <!-- open sidebar and go to edit -->
   <script>
-    $(function(){
-      $(".btn--edit").on('click', function(){
+    $(function () {
+      $(".btn--edit").on('click', function () {
         $('.sidebar-content').addClass('sidebar-content--toogle');
         $('.sidebar-content--toogle').addClass('sidebar-content--toogle-edit');
         $('.sidebar-content').removeClass('sidebar-content--toogle-view')
@@ -394,50 +419,53 @@ Cancel</button>
   </script>
 
 
-<script>
-    $(function(){
-      $(".asset--edit").on('click', function(){
-       $('.sidebar-content').addClass('sidebar-content--toogle');
-       $('.sidebar-content--toogle').addClass('sidebar-content--toogle-edit');
-       $('.sidebar-content').removeClass('sidebar-content--toogle-view')
+  <!-- open sidebar and display edit  -->
+  <script>
+    $(function () {
+      $(".asset--edit").on('click', function () {
+        $('.sidebar-content').addClass('sidebar-content--toogle');
+        $('.sidebar-content--toogle').addClass('sidebar-content--toogle-edit');
+        $('.sidebar-content').removeClass('sidebar-content--toogle-view')
       })
     })
   </script>
 
+  <!-- open sidebar and display view -->
   <script>
-    $(function(){
-      $(".asset--view").on('click', function(){
-       $('.sidebar-content').addClass('sidebar-content--toogle');
-       $('.sidebar-content--toogle').addClass('sidebar-content--toogle-view');
-      }) 
+    $(function () {
+      $(".asset--view").on('click', function () {
+        $('.sidebar-content').addClass('sidebar-content--toogle');
+        $('.sidebar-content--toogle').addClass('sidebar-content--toogle-view');
+      })
     })
   </script>
 
+ <!-- close sidebar -->
   <script>
-    $(function(){
-      $(".btn--cancel").on('click', function(){
-       $('.sidebar-content--toogle').removeClass('sidebar-content--toogle');
-      }) 
-    })
-  </script>
-
-
-<!-- open sidebar -->
-<script>
-    $(function(){
-      $(".close--box").on('click', function(){
-       $('.sidebar-content').removeClass('sidebar-content--toogle');
-       
+    $(function () {
+      $(".btn--cancel").on('click', function () {
+        $('.sidebar-content--toogle').removeClass('sidebar-content--toogle');
       })
     })
   </script>
 
 
-<!-- remove icon -->
+  <!-- close sidebar -->
   <script>
-  $('.btn--delete').click(function(){
-    $(this).closest(".table-list__item").remove();
-  });
+    $(function () {
+      $(".close--box").on('click', function () {
+        $('.sidebar-content').removeClass('sidebar-content--toogle');
+
+      })
+    })
+  </script>
+
+
+  <!-- remove icon -->
+  <script>
+    $('.btn--delete').click(function () {
+      $(this).closest(".table-list__item").remove();
+    });
   </script>
 
 
