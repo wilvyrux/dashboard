@@ -234,43 +234,68 @@
         <a href="#" class="close--box"><i class="fa fa-times" aria-hidden="true"></i></a>
        
        
-         <div class="sidebar-content__item">
-            <table>
-              <thead>
-                  <tr>
-                    <th>Asset Tag</th>
-                    <th>Asset Name</th>
-                    <th>Description</th>
-                  </tr>
-              </thead>
-              <tbody>
-                <tr>
-                    <td><a href="#" class="asset--edit">IT 1212</a></td>
-                    <td>Morlan Test</td>
-                    <td>RS - 999</td>
-                </tr>
-                <tr>
-                    <td><a href="#" class="asset--edit">IT 1212</a></td>
-                    <td>Morlan Test</td>
-                    <td>RS - 999</td>
-                </tr>
-                <tr>
-                    <td><a href="#" class="asset--edit">IT 1212</a></td>
-                    <td>Morlan Test</td>
-                    <td>RS - 999</td>
-                </tr>
-                <tr>
-                    <td><a href="#" class="asset--edit">IT 1212</a></td>
-                    <td>Morlan Test</td>
-                    <td>RS - 999</td>
-                </tr>
-              </tbody>
-            </table>
+         <div class="sidebar-content__item sidebar-content__view">
+
+          <ul>
+          <li>
+                <h4>IT 1212</h4>
+              </li>
+              <li>
+                  <div class="form-group">
+                    <label>Description</label>
+                    <input type="text" value="" placeholder="enter value here" disabled>
+                  </div>
+              </li>
+              <li>
+                  <div class="form-group">
+                    <label>Phone</label>
+                    <input type="text" value="" placeholder="enter value here" disabled>
+                  </div>
+              </li>
+              <li>
+                  <div class="form-group">
+                    <label>Asset Type</label>
+                    <select disabled>
+                      <option value="">Select 1</option>
+                      <option value="">Select 2</option>
+                      <option value="">Select 1</option>
+                    </select>
+                  </div>
+              </li>
+              <li>
+                  <div class="form-group">
+                    <label>Assign to</label>
+                    <select disabled>
+                      <option value="">Select 1</option>
+                      <option value="">Select 2</option>
+                      <option value="">Select 1</option>
+                    </select>
+                  </div>
+              </li>
+              <li>
+                  <div class="form-group">
+                    <label>Department</label>
+                    <input type="text" value="" placeholder="enter value here" disabled>
+                  </div>
+              </li>
+              <li>
+                <div class="btn-group">
+                   <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
+ Edit</button>
+                   <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
+Cancel</button>
+                </div>
+              </li>
+            </ul>
+
+
          </div>
 
          <div class="sidebar-content__edit">
             <ul>
-              <li>
+              
+
+            <li>
                 <h4>IT 1212</h4>
               </li>
               <li>
@@ -313,7 +338,11 @@
               </li>
               <li>
                 <div class="btn-group">
-                   <button class="btn btn--save">save</button>
+                <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
+ save</button>
+                   <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
+Cancel</button>
+                </div
                 </div>
               </li>
             </ul>
@@ -380,6 +409,14 @@
       $(".asset--view").on('click', function(){
        $('.sidebar-content').addClass('sidebar-content--toogle');
        $('.sidebar-content--toogle').addClass('sidebar-content--toogle-view');
+      }) 
+    })
+  </script>
+
+  <script>
+    $(function(){
+      $(".btn--cancel").on('click', function(){
+       $('.sidebar-content--toogle').removeClass('sidebar-content--toogle');
       }) 
     })
   </script>
