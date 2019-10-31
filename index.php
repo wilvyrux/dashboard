@@ -135,6 +135,31 @@
       </div>
 
 
+
+      <div class="col-lg-12">
+          <div class="top-navigation">
+              <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-9 text-left">
+                            <div class="btn-group control-butons-edit">
+                              <a href="#"> <i class="fa fa-plus" aria-hidden="true"></i>New Quick </a>
+                              <a href="#"> <i class="fa fa-pencil" aria-hidden="true"></i> Edit </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 text-right">
+                            <div class="searchbar">
+                              <input type="text" placeholder="search now">
+                              <button> <i class="fa fa-search" aria-hidden="true"></i>
+ </button>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+
+
       <div class="col-lg-12">
 
         <div class="table-list table-responsive">

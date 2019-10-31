@@ -266,3 +266,53 @@
         color: $color-white;
     }
 }
+
+.top-navigation {
+    margin-top: 30px;
+    .container {
+        max-width: 1400px;
+        width: 100%;
+    }
+}
+
+.searchbar {
+    background: #f00;
+    width: 100%;
+    position: relative;
+    input {
+        padding: 10px;
+        width: 100%;
+    }
+    button {
+        position: absolute;
+        right: 0;
+        width: 40px;
+        height: 100%;
+        background: transparent;
+        border: 0;
+        color: #000;
+        &:hover {
+            opacity: .4;
+        }
+    }
+}
+
+.control-butons-edit {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    float: left;
+    i {
+        margin-right: 10px;
+    }
+    a {
+        display: block;
+        margin-right: 20px;
+        text-decoration: none;
+        color: $color-dark;
+        @include transition(.3s);
+        &:hover {
+            opacity: .4;
+        }
+    }
+}
