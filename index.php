@@ -174,6 +174,7 @@
                 <th>Category </th>
                 <th>Status </th>
                 <th>Checked out to </th>
+                <th>Name </th>
                 <th>Checkin/Checkout </th>
                 <th>Action </th>
               </tr>

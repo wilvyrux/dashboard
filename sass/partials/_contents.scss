@@ -1,8 +1,8 @@
 .dashboard {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 100%;
-    position: absolute;
+    // overflow-y: scroll;
+    // overflow-x: hidden;
+    // height: 100%;
+    // position: absolute;
     &__wrapper {
         width: 95%;
         max-width: 95%;
@@ -100,6 +100,9 @@
 }
 
 .color-thumbnail {
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    background: #fffcfc;
     .container {
         max-width: 100%;
         width: 100%;
@@ -148,33 +151,6 @@
     }
 }
 
-.table-list {
-    margin-top: 50px;
-    table {
-        width: 100%;
-        thead {
-            border-bottom: 1px solid $color-lightgray;
-        }
-        td,
-        th {
-            padding: 5px 10px;
-            a {
-                text-decoration: none;
-                color: $color-black;
-            }
-        }
-        tr {
-            td {
-                font-size: .9em;
-                img {
-                    width: 40px;
-                    height: 40px;
-                }
-            }
-        }
-    }
-}
-
 .status {
     &:before {
         width: 10px;
@@ -214,6 +190,8 @@
     color: $color-white;
     @include transition(.4s);
     @include border-radius(5px);
+    width: 100%;
+    text-align: center;
     &__checkin {
         background: $color-violet;
     }
@@ -268,20 +246,33 @@
 }
 
 .top-navigation {
-    margin-top: 30px;
+    margin-top: 15px;
+    // background: #e3dddd;
+    // padding: 5px 10px;
     .container {
         max-width: 1400px;
         width: 100%;
+        padding: 0;
+    }
+    .col-lg-9.col-md-9.text-left {
+        &:after {
+            display: block;
+            clear: both;
+            width: 100%;
+            content: '';
+        }
     }
 }
 
 .searchbar {
-    background: #f00;
     width: 100%;
     position: relative;
     input {
         padding: 10px;
         width: 100%;
+        background: transparent !important;
+        border: 0;
+        border-bottom: 2px solid #484848;
     }
     button {
         position: absolute;
@@ -291,26 +282,6 @@
         background: transparent;
         border: 0;
         color: #000;
-        &:hover {
-            opacity: .4;
-        }
-    }
-}
-
-.control-butons-edit {
-    height: 40px;
-    display: flex;
-    align-items: center;
-    float: left;
-    i {
-        margin-right: 10px;
-    }
-    a {
-        display: block;
-        margin-right: 20px;
-        text-decoration: none;
-        color: $color-dark;
-        @include transition(.3s);
         &:hover {
             opacity: .4;
         }

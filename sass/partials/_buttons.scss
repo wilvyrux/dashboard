@@ -77,3 +77,42 @@
         }
     }
 }
+
+.control-butons-edit {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    float: left;
+    overflow: auto;
+    width: 100%;
+    i {
+        // margin-right: 10px;
+        margin-right: 10px;
+        background: #5e5e5e;
+        padding: 10px;
+        display: inline-block;
+        color: #fff;
+    }
+    a {
+        display: block;
+        margin-right: 20px;
+        text-decoration: none;
+        color: $color-dark;
+        @include transition(.3s);
+        // background: #484848;
+        // padding: 5px 10px;
+        color: #5e5e5e;
+        // border-radius: 3px;
+        background: #f6f2f2;
+        padding-right: 15px;
+        &:hover {
+            opacity: .4;
+        }
+    }
+    &:after {
+        display: block;
+        content: '';
+        clear: both;
+        content: '';
+    }
+}
