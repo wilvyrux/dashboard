@@ -76,6 +76,18 @@
             margin-right: 10px;
         }
     }
+    &--switch {
+        position: absolute;
+        right: 0;
+        border: 2px solid #000;
+        background: transparent;
+        color: #000 !important;
+        font-weight: bold;
+        border-radius: 0 !important;
+        right: 17px;
+        top: 10px;
+        z-index: 9;
+    }
 }
 
 .control-butons-edit {

@@ -249,6 +249,7 @@
     margin-top: 15px;
     // background: #e3dddd;
     // padding: 5px 10px;
+    @include transition(.5s);
     .container {
         max-width: 1400px;
         width: 100%;
@@ -261,6 +262,23 @@
             width: 100%;
             content: '';
         }
+    }
+    &--scroll {
+        position: fixed;
+        z-index: 9;
+        width: 100%;
+        max-width: 1400px;
+        margin: auto;
+        @include t-white(.9);
+        top: 2px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 6px;
+    }
+}
+
+.switch-on-off {
+    &--hidden {
+        display: none;
     }
 }
 

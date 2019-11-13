@@ -36,11 +36,13 @@
 
         <!-- color-thumbnail -->
         <div class="color-thumbnail lightgray-background">
+        <a href="#" class="btn btn--switch">On / Off</a>
           <div class="container">
-            <div class="row">
+            <div class="row switch-on-off">
 
               <div class="col-lg-12">
-                <h1>Dashboard</h1>
+                <h1>Dashboard 
+                </h1>
               </div>
 
               <!-- col start here  -->
@@ -234,6 +236,357 @@
                 </td>
               </tr>
 
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="table-list__item">
+                <td> <input type="checkbox" class="check_"> </td>
+                <td> <a href="#" class="asset--view"> 112232344</a> </td>
+                <td>8b79282323-10010232fas0asdsd-sdsdsd-2323</td>
+                <td> 12121244 </td>
+                <td>Macbook Pro</td>
+                <td>Laptops</td>
+                <td>
+                  <div class="status status__pending">pending</div>
+                </td>
+                <td>
+                  <div class="person"> <i class="fa fa-user" aria-hidden="true"></i>
+                    joany jonh</div>
+                </td>
+                <td>
+                  <div class="check-status check-status__checkin"> Checkin</div>
+                </td>
+                <td>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn--duplicate"><i class="fa fa-files-o" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn--delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+
+                  </div>
+                </td>
+              </tr>
 
               <tr class="table-list__item">
                 <td> <input type="checkbox" class="check_"> </td>
@@ -491,6 +844,26 @@
   <script>
     $('.btn--delete').click(function () {
       $(this).closest(".table-list__item").remove();
+    });
+  </script>
+
+   <!-- hide dashboard wrapp -->
+   <script>
+    $(".btn--switch").on('click', function () {
+        $('.switch-on-off').toggleClass('switch-on-off--hidden');
+      })
+  </script>
+
+
+  <script>
+    jQuery(window).scroll(function() {
+    var scroll = jQuery(window).scrollTop();
+
+    if (scroll >= 100) {
+    jQuery(".top-navigation").addClass("top-navigation--scroll");
+    } else {
+    jQuery(".top-navigation").removeClass("top-navigation--scroll");
+    }
     });
   </script>
 
