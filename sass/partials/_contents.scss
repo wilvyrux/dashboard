@@ -67,6 +67,7 @@
     }
     &__view,
     &__edit {
+        position: relative;
         display: none;
         ul {
             list-style: none;
@@ -88,13 +89,19 @@
         .btn-group {
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-end;
             border-top: 2px solid #ddd;
             padding-top: 10px;
             width: 100%;
             button {
                 margin-right: 15px;
             }
+        }
+        .btn-group {
+            position: absolute;
+            right: -25px;
+            top: -70px;
+            padding: 5px 0;
         }
     }
 }
@@ -245,6 +252,24 @@
     }
 }
 
+.header-top {
+    &--scroll {
+        position: fixed;
+        z-index: 9;
+        width: 100%;
+        max-width: 1400px;
+        margin: auto;
+        // @include t-white(.9);
+        background: #fff;
+        top: 0;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 6px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
 .top-navigation {
     margin-top: 15px;
     // background: #e3dddd;
@@ -262,17 +287,6 @@
             width: 100%;
             content: '';
         }
-    }
-    &--scroll {
-        position: fixed;
-        z-index: 9;
-        width: 100%;
-        max-width: 1400px;
-        margin: auto;
-        @include t-white(.9);
-        top: 2px;
-        border-bottom: 1px solid #ddd;
-        padding-bottom: 6px;
     }
 }
 

@@ -32,134 +32,137 @@
 
     <div class="container dashboard__wrapper">
       <!-- /*************************************************/ -->
-      <div class="col-md-12">
 
-        <!-- color-thumbnail -->
-        <div class="color-thumbnail lightgray-background">
-        <a href="#" class="btn btn--switch">On / Off</a>
-          <div class="container">
-            <div class="row switch-on-off">
+      <header class="header-top">
+        <div class="col-md-12">
 
-              <div class="col-lg-12">
-                <h1>Dashboard 
-                </h1>
-              </div>
+          <!-- color-thumbnail -->
+          <div class="color-thumbnail lightgray-background">
+            <a href="#" class="btn btn--switch">On / Off</a>
+            <div class="container">
+              <div class="row switch-on-off">
 
-              <!-- col start here  -->
-              <div class="col-md-3">
-                <!-- counter-bar -->
-                <div class="counter-bar cyan-background">
-                  <div class="counter-bar__top white-text">
-                    <div class="counter-bar__top--left">
-                      <h3>1,2300</h3>
-                      <p>Total Assests</p>
+                <div class="col-lg-12">
+                  <h1>Dashboard
+                  </h1>
+                </div>
+
+                <!-- col start here  -->
+                <div class="col-md-3">
+                  <!-- counter-bar -->
+                  <div class="counter-bar cyan-background">
+                    <div class="counter-bar__top white-text">
+                      <div class="counter-bar__top--left">
+                        <h3>1,2300</h3>
+                        <p>Total Assests</p>
+                      </div>
+                      <div class="counter-bar__top--right">
+                        <i class="fa fa-barcode" aria-hidden="true"></i>
+                      </div>
                     </div>
-                    <div class="counter-bar__top--right">
-                      <i class="fa fa-barcode" aria-hidden="true"></i>
+
+                    <div class="counter-bar__bottom text-center">
+                      <a href="#">more info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> </a>
                     </div>
                   </div>
+                  <!-- end counter-bar -->
+                </div>
 
-                  <div class="counter-bar__bottom text-center">
-                    <a href="#">more info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> </a>
+
+                <div class="col-md-3">
+                  <!-- counter-bar -->
+                  <div class="counter-bar red-background">
+                    <div class="counter-bar__top white-text">
+                      <div class="counter-bar__top--left">
+                        <h3>50</h3>
+                        <p>Total Lisense</p>
+                      </div>
+                      <div class="counter-bar__top--right">
+                        <i class="fa fa-floppy-o" aria-hidden="true"></i>
+                      </div>
+                    </div>
+
+                    <div class="counter-bar__bottom text-center">
+                      <a href="#">more info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> </a>
+                    </div>
+                  </div>
+                  <!-- end counter-bar -->
+                </div>
+
+
+                <div class="col-md-3">
+                  <!-- counter-bar -->
+                  <div class="counter-bar orange-background">
+                    <div class="counter-bar__top white-text">
+                      <div class="counter-bar__top--left">
+                        <h3>4</h3>
+                        <p>Total Accessories</p>
+                      </div>
+                      <div class="counter-bar__top--right">
+                        <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                      </div>
+                    </div>
+
+                    <div class="counter-bar__bottom text-center">
+                      <a href="#">more info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> </a>
+                    </div>
+                  </div>
+                  <!-- end counter-bar -->
+                </div>
+
+
+                <div class="col-md-3">
+                  <!-- counter-bar -->
+                  <div class="counter-bar violet-background">
+                    <div class="counter-bar__top white-text">
+                      <div class="counter-bar__top--left">
+                        <h3>1</h3>
+                        <p>Total Cosumables</p>
+                      </div>
+                      <div class="counter-bar__top--right">
+                        <i class="fa fa-tint" aria-hidden="true"></i>
+                      </div>
+                    </div>
+
+                    <div class="counter-bar__bottom text-center">
+                      <a href="#">more info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> </a>
+                    </div>
+                  </div>
+                  <!-- end counter-bar -->
+                </div>
+
+                <!-- col start here  -->
+              </div>
+            </div>
+          </div>
+          <!-- color-thumbnail -->
+        </div>
+
+
+
+        <div class="col-lg-12">
+          <div class="top-navigation">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-9 col-md-9 text-left">
+                  <div class="btn-group control-butons-edit">
+                    <a href="#"> <i class="fa fa-plus" aria-hidden="true"></i>New Quick </a>
+                    <a href="#"> <i class="fa fa-pencil" aria-hidden="true"></i> Edit </a>
                   </div>
                 </div>
-                <!-- end counter-bar -->
-              </div>
 
-
-              <div class="col-md-3">
-                <!-- counter-bar -->
-                <div class="counter-bar red-background">
-                  <div class="counter-bar__top white-text">
-                    <div class="counter-bar__top--left">
-                      <h3>50</h3>
-                      <p>Total Lisense</p>
-                    </div>
-                    <div class="counter-bar__top--right">
-                      <i class="fa fa-floppy-o" aria-hidden="true"></i>
-                    </div>
-                  </div>
-
-                  <div class="counter-bar__bottom text-center">
-                    <a href="#">more info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> </a>
+                <div class="col-lg-3 col-md-3 text-right">
+                  <div class="searchbar">
+                    <input type="text" placeholder="search now">
+                    <button> <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
                   </div>
                 </div>
-                <!-- end counter-bar -->
               </div>
-
-
-              <div class="col-md-3">
-                <!-- counter-bar -->
-                <div class="counter-bar orange-background">
-                  <div class="counter-bar__top white-text">
-                    <div class="counter-bar__top--left">
-                      <h3>4</h3>
-                      <p>Total Accessories</p>
-                    </div>
-                    <div class="counter-bar__top--right">
-                      <i class="fa fa-keyboard-o" aria-hidden="true"></i>
-                    </div>
-                  </div>
-
-                  <div class="counter-bar__bottom text-center">
-                    <a href="#">more info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> </a>
-                  </div>
-                </div>
-                <!-- end counter-bar -->
-              </div>
-
-
-              <div class="col-md-3">
-                <!-- counter-bar -->
-                <div class="counter-bar violet-background">
-                  <div class="counter-bar__top white-text">
-                    <div class="counter-bar__top--left">
-                      <h3>1</h3>
-                      <p>Total Cosumables</p>
-                    </div>
-                    <div class="counter-bar__top--right">
-                      <i class="fa fa-tint" aria-hidden="true"></i>
-                    </div>
-                  </div>
-
-                  <div class="counter-bar__bottom text-center">
-                    <a href="#">more info <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> </a>
-                  </div>
-                </div>
-                <!-- end counter-bar -->
-              </div>
-
-              <!-- col start here  -->
             </div>
           </div>
         </div>
-        <!-- color-thumbnail -->
-      </div>
-
-
-
-      <div class="col-lg-12">
-          <div class="top-navigation">
-              <div class="container">
-                    <div class="row">
-                        <div class="col-lg-9 col-md-9 text-left">
-                            <div class="btn-group control-butons-edit">
-                              <a href="#"> <i class="fa fa-plus" aria-hidden="true"></i>New Quick </a>
-                              <a href="#"> <i class="fa fa-pencil" aria-hidden="true"></i> Edit </a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 text-right">
-                            <div class="searchbar">
-                              <input type="text" placeholder="search now">
-                              <button> <i class="fa fa-search" aria-hidden="true"></i>
- </button>
-                            </div>
-                        </div>
-                    </div>
-              </div>
-          </div>
-      </div>
+      </header>
 
 
       <div class="col-lg-12">
@@ -694,7 +697,12 @@
 
       <!-- view container for edit section -->
       <div class="sidebar-content__edit">
-
+        <div class="btn-group">
+              <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
+                save</button>
+              <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
+                Cancel</button>
+            </div>
         <ul>
           <li>
             <h4>IT 1212</h4>
@@ -738,12 +746,7 @@
             </div>
           </li>
           <li>
-            <div class="btn-group">
-              <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
-                save</button>
-              <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
-                Cancel</button>
-            </div>
+          
       </div>
       </li>
       </ul>
@@ -819,7 +822,7 @@
     })
   </script>
 
- <!-- close sidebar -->
+  <!-- close sidebar -->
   <script>
     $(function () {
       $(".btn--cancel").on('click', function () {
@@ -847,23 +850,23 @@
     });
   </script>
 
-   <!-- hide dashboard wrapp -->
-   <script>
+  <!-- hide dashboard wrapp -->
+  <script>
     $(".btn--switch").on('click', function () {
-        $('.switch-on-off').toggleClass('switch-on-off--hidden');
-      })
+      $('.switch-on-off').toggleClass('switch-on-off--hidden');
+    })
   </script>
 
 
   <script>
-    jQuery(window).scroll(function() {
-    var scroll = jQuery(window).scrollTop();
+    jQuery(window).scroll(function () {
+      var scroll = jQuery(window).scrollTop();
 
-    if (scroll >= 100) {
-    jQuery(".top-navigation").addClass("top-navigation--scroll");
-    } else {
-    jQuery(".top-navigation").removeClass("top-navigation--scroll");
-    }
+      if (scroll >= 100) {
+        jQuery(".header-top").addClass("header-top--scroll");
+      } else {
+        jQuery(".header-top").removeClass("header-top--scroll");
+      }
     });
   </script>
 
