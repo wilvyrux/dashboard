@@ -621,7 +621,6 @@
             </tbody>
           </table>
 
-
         </div>
 
       </div>
@@ -639,117 +638,214 @@
       <!-- view container for view section -->
       <div class="sidebar-content__item sidebar-content__view">
 
-        <ul>
-          <li>
-            <h4>IT 1212</h4>
-          </li>
-          <li>
-            <div class="form-group">
-              <label>Description</label>
-              <input type="text" value="" placeholder="enter value here" disabled>
-            </div>
-          </li>
-          <li>
-            <div class="form-group">
-              <label>Phone</label>
-              <input type="text" value="" placeholder="enter value here" disabled>
-            </div>
-          </li>
-          <li>
-            <div class="form-group">
-              <label>Asset Type</label>
-              <select disabled>
-                <option value="">Select 1</option>
-                <option value="">Select 2</option>
-                <option value="">Select 1</option>
-              </select>
-            </div>
-          </li>
-          <li>
-            <div class="form-group">
-              <label>Assign to</label>
-              <select disabled>
-                <option value="">Select 1</option>
-                <option value="">Select 2</option>
-                <option value="">Select 1</option>
-              </select>
-            </div>
-          </li>
-          <li>
-            <div class="form-group">
-              <label>Department</label>
-              <input type="text" value="" placeholder="enter value here" disabled>
-            </div>
-          </li>
-          <li>
-            <div class="btn-group">
-              <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
-                Edit</button>
-              <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
-                Cancel</button>
-            </div>
-          </li>
-        </ul>
+        <div class="btn-group">
+          <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
+            Edit</button>
+          <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
+            Cancel</button>
+        </div>
 
+
+          <!-- custom-tab-wrapper -->
+        <div class="custom-tab-wrapper">
+              <nav class="custom-tab-wrapper__tab">
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="nav-account-tab" data-toggle="tab" href="#nav-account" role="tab" aria-controls="nav-account" aria-selected="true">account</a>
+
+                  <a class="nav-item nav-link" id="nav-devices-tab" data-toggle="tab" href="#nav-devices" role="tab" aria-controls="nav-devices" aria-selected="false">devices</a>
+
+                  <a class="nav-item nav-link" id="nav-liscenses-apps-tab" data-toggle="tab" href="#nav-liscenses-apps" role="tab" aria-controls="nav-liscenses-apps" aria-selected="false">liscenses and apps</a>
+
+                  <a class="nav-item nav-link" id="nav-mail-tab" data-toggle="tab" href="#nav-mail" role="tab" aria-controls="nav-mail" aria-selected="false">Mail</a>
+
+                  <a class="nav-item nav-link" id="nav-onedrive-tab" data-toggle="tab" href="#nav-onedrive" role="tab" aria-controls="nav-onedrive" aria-selected="false">one drive</a>
+                </div>
+            </nav>
+            <div class="tab-content custom-tab-wrapper__content" id="nav-tabContent">
+                <div class="tab-pane fade in active" id="nav-account" role="tabpanel" aria-labelledby="nav-account-tab">
+
+                  <!-- tab 1 content -->
+                  <h3> account </h3>
+                  <ul>
+                      <li>
+                          <h4>IT 1212</h4>
+                      </li>
+                      <li>
+                          <div class="form-group">
+                              <label>Description</label>
+                              <input type="text" value="" placeholder="enter value here" disabled="">
+                          </div>
+                      </li>
+                      <li>
+                          <div class="form-group">
+                              <label>Phone</label>
+                              <input type="text" value="" placeholder="enter value here" disabled="">
+                          </div>
+                      </li>
+                      <li>
+                          <div class="form-group">
+                              <label>Asset Type</label>
+                              <select disabled="">
+                                  <option value="">Select 1</option>
+                                  <option value="">Select 2</option>
+                                  <option value="">Select 1</option>
+                              </select>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="form-group">
+                              <label>Assign to</label>
+                              <select disabled="">
+                                  <option value="">Select 1</option>
+                                  <option value="">Select 2</option>
+                                  <option value="">Select 1</option>
+                              </select>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="form-group">
+                              <label>Department</label>
+                              <input type="text" value="" placeholder="enter value here" disabled="">
+                          </div>
+                      </li>
+                      <li>
+                          <div class="btn-group">
+                              <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
+                                  Edit</button>
+                              <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
+                                  Cancel</button>
+                          </div>
+                      </li>
+                  </ul>
+                   <!-- tab 1 content -->
+
+                
+                </div>
+
+
+                <div class="tab-pane fade" id="nav-devices" role="tabpanel" aria-labelledby="nav-devices-tab">
+
+                      <!-- tab 2 content -->
+                      <h3> devices </h3>
+                      <!-- tab 2 content -->
+                </div>
+
+
+                <div class="tab-pane fade" id="nav-liscenses-apps" role="tabpanel" aria-labelledby="nav-liscenses-apps-tab">
+                  
+                       <!-- tab 3 content -->
+                       <h3> liscenses </h3>
+                      <!-- tab 3 content -->
+
+                </div>
+                <div class="tab-pane fade" id="nav-mail" role="tabpanel" aria-labelledby="nav-mail-tab">
+                  
+                       <!-- tab 3 content -->
+                       <h3> Mail </h3>
+                      <!-- tab 3 content -->
+
+                </div>
+                <div class="tab-pane fade" id="nav-onedrive" role="tabpanel" aria-labelledby="nav-onedrive-tab">
+                  
+                          <!-- tab 3 content -->
+                          <h3> onedrive </h3>
+                      <!-- tab 3 content -->
+
+                </div>
+            </div>
+        </div>
+      <!-- custom-tab-wrapper -->
 
       </div>
 
 
       <!-- view container for edit section -->
       <div class="sidebar-content__edit">
-        <div class="btn-group">
+            <div class="btn-group">
               <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
                 save</button>
               <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
                 Cancel</button>
             </div>
-        <ul>
-          <li>
-            <h4>IT 1212</h4>
-          </li>
-          <li>
-            <div class="form-group">
-              <label>Description</label>
-              <input type="text" value="" placeholder="enter value here">
+
+
+                <!-- custom-tab-wrapper -->
+        <div class="custom-tab-wrapper">
+              <nav class="custom-tab-wrapper__tab">
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="nav-account2-tab" data-toggle="tab" href="#nav-account2" role="tab" aria-controls="nav-account" aria-selected="true">account</a>
+
+                  <a class="nav-item nav-link" id="nav-devices2-tab" data-toggle="tab" href="#nav-devices2" role="tab" aria-controls="nav-devices" aria-selected="false">devices</a>
+
+                </div>
+            </nav>
+            <div class="tab-content custom-tab-wrapper__content" id="nav-tabContent">
+                <div class="tab-pane fade in active" id="nav-account2" role="tabpanel" aria-labelledby="nav-account2-tab">
+
+                  <!-- tab 1 content -->
+                  <h3> account </h3>
+                  <ul>
+                <li>
+                  <h4>IT 1212</h4>
+                </li>
+                <li>
+                  <div class="form-group">
+                    <label>Description</label>
+                    <input type="text" value="" placeholder="enter value here">
+                  </div>
+                </li>
+                <li>
+                  <div class="form-group">
+                    <label>Phone</label>
+                    <input type="text" value="" placeholder="enter value here">
+                  </div>
+                </li>
+                <li>
+                  <div class="form-group">
+                    <label>Asset Type</label>
+                    <select>
+                      <option value="">Select 1</option>
+                      <option value="">Select 2</option>
+                      <option value="">Select 1</option>
+                    </select>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-group">
+                    <label>Assign to</label>
+                    <select>
+                      <option value="">Select 1</option>
+                      <option value="">Select 2</option>
+                      <option value="">Select 1</option>
+                    </select>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-group">
+                    <label>Department</label>
+                    <input type="text" value="" placeholder="enter value here">
+                  </div>
+                </li>
+            </ul>
+                   <!-- tab 1 content -->
+
+                
+                </div>
+
+
+                <div class="tab-pane fade" id="nav-devices2" role="tabpanel" aria-labelledby="nav-devices2-tab">
+
+                      <!-- tab 2 content -->
+                      <h3> devices2 </h3>
+                      <!-- tab 2 content -->
+                </div>
+
             </div>
-          </li>
-          <li>
-            <div class="form-group">
-              <label>Phone</label>
-              <input type="text" value="" placeholder="enter value here">
-            </div>
-          </li>
-          <li>
-            <div class="form-group">
-              <label>Asset Type</label>
-              <select>
-                <option value="">Select 1</option>
-                <option value="">Select 2</option>
-                <option value="">Select 1</option>
-              </select>
-            </div>
-          </li>
-          <li>
-            <div class="form-group">
-              <label>Assign to</label>
-              <select>
-                <option value="">Select 1</option>
-                <option value="">Select 2</option>
-                <option value="">Select 1</option>
-              </select>
-            </div>
-          </li>
-          <li>
-            <div class="form-group">
-              <label>Department</label>
-              <input type="text" value="" placeholder="enter value here">
-            </div>
-          </li>
-          <li>
-          
-      </div>
-      </li>
-      </ul>
+        </div>
+      <!-- custom-tab-wrapper -->
+
+
+           
 
     </div>
 
