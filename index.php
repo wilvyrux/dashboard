@@ -768,8 +768,14 @@
 
             
         <div class="sidebar-content__buttons">
+          <div class="save-cancel">
           <button class="btn btn--edit-all"><i class="fa fa-floppy-o" aria-hidden="true"></i>
-            Edit all</button>
+            save</button>
+            <button class="btn btn--cancel"><i class="fa fa-times" aria-hidden="true"></i> 
+            cancel</button>
+          </div>
+         
+
             <button class="btn btn--close"><i class="fa fa-times" aria-hidden="true"></i>  </button>
         </div>
 

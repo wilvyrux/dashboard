@@ -279,6 +279,23 @@
     }
 }
 
+.save-cancel {
+    @include flex;
+    .btn {
+        &--cancel {
+            padding-left: 0 !important;
+            background: transparent !important;
+            color: $color-dark !important;
+            &:hover {
+                color: $color-dark !important;
+                i {
+                    color: $color-dark !important;
+                }
+            }
+        }
+    }
+}
+
 .top-navigation {
     margin-top: 15px;
     // background: #e3dddd;
