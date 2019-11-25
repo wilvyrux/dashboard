@@ -638,13 +638,18 @@
       <!-- view container for view section -->
       <div class="sidebar-content__item sidebar-content__view">
 
-        <div class="btn-group">
+        <!-- <div class="btn-group">
           <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
-            Edit</button>
+            Edit all</button>
           <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
             Cancel</button>
-        </div>
+        </div> -->
 
+        <div class="sidebar-content__buttons">
+          <button class="btn btn--edit-all"><i class="fa fa-floppy-o" aria-hidden="true"></i>
+            Edit all</button>
+          <button class="btn btn--close"><i class="fa fa-times" aria-hidden="true"></i>  </button>
+        </div>
 
           <!-- custom-tab-wrapper -->
         <div class="custom-tab-wrapper">
@@ -708,14 +713,7 @@
                               <input type="text" value="" placeholder="enter value here" disabled="">
                           </div>
                       </li>
-                      <li>
-                          <div class="btn-group">
-                              <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
-                                  Edit</button>
-                              <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
-                                  Cancel</button>
-                          </div>
-                      </li>
+                      
                   </ul>
                    <!-- tab 1 content -->
 
@@ -761,12 +759,19 @@
 
       <!-- view container for edit section -->
       <div class="sidebar-content__edit">
-            <div class="btn-group">
+            <!-- <div class="btn-group">
               <button class="btn btn--write"><i class="fa fa-floppy-o" aria-hidden="true"></i>
                 save</button>
               <button class="btn btn--cancel"><i class="fa fa-ban" aria-hidden="true"></i>
                 Cancel</button>
-            </div>
+            </div> -->
+
+            
+        <div class="sidebar-content__buttons">
+          <button class="btn btn--edit-all"><i class="fa fa-floppy-o" aria-hidden="true"></i>
+            Edit all</button>
+            <button class="btn btn--close"><i class="fa fa-times" aria-hidden="true"></i>  </button>
+        </div>
 
 
                 <!-- custom-tab-wrapper -->
@@ -922,6 +927,9 @@
   <script>
     $(function () {
       $(".btn--cancel").on('click', function () {
+        $('.sidebar-content--toogle').removeClass('sidebar-content--toogle');
+      })
+      $(".btn--close").on('click', function () {
         $('.sidebar-content--toogle').removeClass('sidebar-content--toogle');
       })
     })

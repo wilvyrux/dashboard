@@ -12,7 +12,76 @@
         }
     }
     &--duplicate {
-        background: $color-blue2;
+        // background: $color-blue2;
+        background: url('../images/sprite-all.png');
+        width: 35px;
+        height: 31px;
+        background-position: -96px 0;
+        background-color: $color-blue2;
+        // background-position:
+        i {
+            display: none;
+        }
+    }
+    &--computer {
+        // background: $color-blue2;
+        background: url('../images/sprite-all.png');
+        width: 35px;
+        height: 31px;
+        background-position: -127px 0;
+        background-color: $color-orange;
+        // background-position:
+        i {
+            display: none;
+        }
+    }
+    &--tablet {
+        // background: $color-blue2;
+        background: url('../images/sprite-all.png');
+        width: 35px;
+        height: 31px;
+        background-position: -191px 0;
+        background-color: $color-green;
+        // background-position:
+        i {
+            display: none;
+        }
+    }
+    &--hub {
+        // background: $color-blue2;
+        background: url('../images/sprite-all.png');
+        width: 35px;
+        height: 31px;
+        background-position: -284px 0;
+        background-color: $color-red;
+        // background-position:
+        i {
+            display: none;
+        }
+    }
+    &--phone {
+        // background: $color-blue2;
+        background: url('../images/sprite-all.png');
+        width: 35px;
+        height: 31px;
+        background-position: -0 -30px;
+        background-color: $color-dark;
+        // background-position:
+        i {
+            display: none;
+        }
+    }
+    &--Mi-FI {
+        // background: $color-blue2;
+        background: url('../images/sprite-all.png');
+        width: 35px;
+        height: 31px;
+        background-position: -31px 30px;
+        background-color: $color-blue2;
+        // background-position:
+        i {
+            display: none;
+        }
     }
     &--edit {
         background: $color-orange;
@@ -57,6 +126,34 @@
             margin-right: 10px;
         }
     }
+    &--edit-all {
+        // background: $color-blue;
+        border: 0;
+        padding: 10px 30px !important;
+        padding-left: 0 !important;
+        display: inline-block;
+        margin: 5px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-size: .9em;
+        font-weight: bold;
+        color: $color-dark !important;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        background: transparent;
+        color: $color-dark !important;
+        &:hover {
+            color: $color-dark !important;
+            i {
+                color: $color-dark !important;
+            }
+        }
+        i {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+    }
     &--cancel {
         background: $color-dark;
         border: 0;
@@ -74,6 +171,35 @@
         i {
             font-size: 1.5em;
             margin-right: 10px;
+        }
+    }
+    &--close {
+        // background: $color-blue;
+        border: 0;
+        padding: 0;
+        display: inline-block;
+        margin: 5px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-size: .9em;
+        font-weight: bold;
+        color: $color-dark;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        background: transparent;
+        color: $color-dark !important;
+        background: transparent !important;
+        font-size: 1.5em;
+        i {
+            // font-size: 1.5em;
+            // margin-right: 10px;
+        }
+        &:hover {
+            color: $color-dark !important;
+            i {
+                color: $color-dark !important;
+            }
         }
     }
     &--switch {
