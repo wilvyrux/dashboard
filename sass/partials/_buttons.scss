@@ -14,7 +14,7 @@
     &--duplicate {
         // background: $color-blue2;
         background: url('../images/sprite-all.png');
-        width: 35px;
+        width: 35px !important;
         height: 31px;
         background-position: -96px 0;
         background-color: $color-blue2;
